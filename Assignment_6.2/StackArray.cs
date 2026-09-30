@@ -17,7 +17,7 @@ namespace Assignment_6._2
 
         public bool IsFull()
         {
-            return top == data.Length;
+            return top == data.Length - 1;
         }
 
         public bool IsEmpty()
